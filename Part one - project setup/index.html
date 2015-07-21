@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+    <head>		
+		<base href="/" />
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!--Stylesheets in the head-->
+		
+    </head>
+    <body ng-app="testingApp">
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+		<div class="container" ng-view>
+			
+			<!-- Route content renders here -->
+			
+		</div>
+			
+		<!-- Scripts at the bottom -->
+		
+		<!-- Vendor Scripts -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.3/angular.js"></script>
+		<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.3/angular-route.js"></script>
+		
+		<!-- Application Scripts -->
+		<script src="app/app.module.js"></script>
+		<script src="app/components/alt-image-directive/ihj-alt-image.js"></script>
+		<script src="app/components/item-type-filter/item-type.filter.js"></script>
+		<script src="app/components/data-service/data.service.js"></script>
+		<script src="app/detail/detail.controller.js"></script>
+		<script src="app/list/list.controller.js"></script>
+		
+
+    </body>
+</html>
